@@ -221,7 +221,6 @@ export default function Home() {
                       type="password"
                       id="password"
                       autoComplete="current-password"
-                      helperText='testing..'
                       value={values.password}
                       onChange={handleChange}
                       onBlur={handleBlur}
